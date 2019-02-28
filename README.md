@@ -8,18 +8,18 @@ Prerequisites for making the project completely working:
 
 Following are the steps to download and install the working project:
   - Clone or download the zip file of this repository.
-  - If you've cloned it using the command 
+  - If you want to clone then use
   ```sh
     $ git clone https://github.com/shra1dhar/IEEEUVCE_sqlSession.git
   ```
-  - If you've download it then extract the file to some suitable location.
-  - Open the folder in your VSCode ( **Ctrl + K** )
+  - Or instead simply download it then extract the file to some suitable location.
+  - Open the extracted folder in your VSCode ( **Ctrl + K** )
 
-  - After opening the folder, open integrated terminal ( **Ctrl + ~**)
+  - After opening the folder, open integrated terminal ( **Ctrl + ~** )
 
-Install the dependencies and devDependencies and start the server.
+Install the dependencies in `package.json` and start the server.
 
-  - To install all dependencies mentioned in **packet.json** file
+  - To install all dependencies mentioned in **packet.json** file type
 ```sh
 $ npm install
 ```
@@ -27,7 +27,10 @@ $ npm install
 ```sh
 $ node app.js
 ```
-
+  - *You can also install another dependency named nodemon to avoid restarting your app everytime you make changes to the app using following command*
+  ```sh
+$ npm install -g nodemon
+```
 ### Video:
 See [Recap Video of SQL session](https://www.youtube.com/watch?v=EN6Dx22cPRI)
 
